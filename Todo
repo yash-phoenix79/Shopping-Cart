@@ -1,0 +1,21 @@
+1 Start React App 
+2 Import ReactQuery To fetch Data - We need to fetch items from Fake Store API, As we need to add items to cart,remove them
+3 Wrap App component with QueryClientProvider Component 
+
+
+-- App Component 
+4 import components from material UI
+5 import custom Wrapper component from App Styles - which you create and export 
+6 Set Type for the CartItemType - Use TypeScript
+
+7 Fetch Items with the getProducts function from the FakeStoreAPI,set the type as Promise with generic Type as CartItemType
+8 Use UseQueryHook To fetch this Data -Give a Key and HandlingFunction
+9 Write Functions for Add to,Remove from,get Total Items: Cart 
+10 Finally return a Grid with in a Grid wrapped with the Wrapper Component 
+11 To render each item in the grid,create a Item component,import- Start to work on Item Component 
+
+-- Item Component 
+12 Import Types and Styles
+13 Create Type for the Props you acquire 
+14 Set the type of the Item as React Functional Component 
+15 Export Item 
